@@ -44,7 +44,8 @@
   font-weight: 500;
   font-size: 40px;
   color: #341e14;
-  text-align: left;
+  display: flex;
+  align-self: flex-start;
   @media screen and (min-width: 1440px) {
     font-size: 48px;
   }

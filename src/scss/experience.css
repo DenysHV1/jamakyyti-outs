@@ -2,17 +2,102 @@
   margin-bottom: 80px;
   scroll-margin-top: 100px;
   @media (min-width: 1440px) {
-    margin-bottom: 140px;
+    margin-bottom: 120px;
   }
 }
 
 .experience_container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 28px;
+  gap: 48px;
+  padding: 0 16px;
   @media (min-width: 1440px) {
-    gap: 36px;
+    gap: 56px;
+    padding: 0 72px;
   }
 }
 
+.swiper-experience {
+  width: 100%;
+  overflow-y: hidden !important;
+}
+
+.experience_content {
+  max-width: 343px;
+  @media (min-width: 1440px) {
+    max-width: 100%;
+  }
+}
+
+.swiper-wrapper-experience {
+  display: flex;
+  @media (min-width: 1440px) {
+    gap: 24px;
+  }
+}
+
+.swiper-slide-experience {
+  overflow: hidden;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 24px 16px;
+  min-height: 608px;
+  @media (min-width: 1440px) {
+    gap: 16px;
+    padding: 24px;
+    width: 416px;
+    max-width: 416px;
+    min-height: 738px;
+    height: 738px;
+  }
+}
+
+.swiper-slide-experience > h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #e8f0e9;
+}
+
+.swiper-slide-experience > p {
+  color: #e8f0e9;
+  max-width: 311px;
+  @media (min-width: 1440px) {
+    font-size: 18px;
+    max-width: 368px;
+  }
+}
+
+.swiper-slide-experience-1 {
+  background-image: url(../img/experience/experience-bg-1.jpg);
+}
+
+.swiper-slide-experience-2 {
+  background-image: url(../img/experience/experience-bg-2.jpg);
+}
+
+.swiper-slide-experience-3 {
+  background-image: url(../img/experience/experience-bg-3.jpg);
+}
+
+.swiper-pagination-experience {
+  display: flex !important;
+  justify-content: center;
+  position: relative !important;
+  margin-top: 32px;
+  @media screen and (min-width: 1440px) {
+    display: none !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 0 !important;
+  background-color: #3b603b !important;
+}
