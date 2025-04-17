@@ -1,0 +1,66 @@
+@import './reset.css';
+
+@import './header.css';
+@import './footer.css';
+@import './pages.css';
+
+@import './cabins.css';
+@import './contact.css';
+@import './experience.css';
+@import './history.css';
+@import './log.css';
+@import './hero.css';
+@import './process.css';
+@import './process.css';
+
+@import './why-us.css';
+
+:root {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #213322;
+
+  background-color: #f5f5f5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 375px;
+  min-width: 320px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
+
+.title-h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #341e14;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 48px;
+  }
+}
+
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
