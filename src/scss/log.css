@@ -1,8 +1,9 @@
 .log {
   margin-bottom: 80px;
   scroll-margin-top: 100px;
-  @media screen and (min-width: 1440px) {
-    margin-bottom: 140px;
+
+  @media (min-width: 1440px) {
+    margin-bottom: 120px;
   }
 }
 
@@ -10,9 +11,146 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 28px;
-  @media screen and (min-width: 1440px) {
-    gap: 36px;
+  gap: 48px;
+  padding: 0 16px;
+
+  @media (min-width: 1440px) {
+    gap: 56px;
+    padding: 0 72px;
   }
 }
 
+.log_content {
+  position: relative;
+  max-width: 343px;
+  padding-top: 223px;
+  background-image: url(../img/log-sauna.jpg);
+  background-size: 253px 279px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  @media (min-width: 1440px) {
+    background-size: 526px 580px;
+    padding-top: 0;
+    max-width: 100%;
+    height: 580px;
+    width: 1296px;
+  }
+}
+
+.log-text_element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 700;
+  font-size: 40px;
+  background: linear-gradient(
+    271deg,
+    #3e5741 10.79%,
+    #e8f0e9 49.66%,
+    #e8f0e9 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media (min-width: 1440px) {
+    font-size: 80px;
+    background: linear-gradient(270deg, #3e5741 0%, #e8f0e9 50%, #e8f0e9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 0;
+    left: 23px;
+  }
+}
+
+.swiper-log {
+  @media (min-width: 1440px) {
+    overflow: visible !important;
+  }
+}
+
+.swiper-slide-log {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  background: #cbd9cc;
+  padding: 16px;
+  min-height: 157px;
+  backdrop-filter: blur(30px);
+  background: rgba(227, 235, 224, 0.7);
+  @media (min-width: 1440px) {
+    background: #e3ebe0;
+    backdrop-filter: none;
+    gap: 16px;
+    padding: 24px;
+    width: 526px;
+    max-width: 526px;
+    min-height: 172px;
+    height: 172px;
+    max-height: 172px;
+  }
+}
+
+.swiper-slide-log-1 {
+  @media (min-width: 1440px) {
+    position: absolute !important;
+    top: 204px;
+    right: 550px;
+  }
+}
+
+.swiper-slide-log-2 {
+  @media (min-width: 1440px) {
+    position: absolute !important;
+    top: 401px;
+    right: 110px;
+  }
+}
+
+.swiper-slide-log-3 {
+  @media (min-width: 1440px) {
+    position: absolute !important;
+    top: 24px;
+    right: 0;
+    min-height: 208px;
+    height: 208px;
+    max-height: 208px;
+  }
+}
+
+.swiper-slide-log > h3 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: right;
+  color: #341e14;
+  display: flex;
+  align-self: flex-end;
+}
+
+.swiper-slide-log > p {
+  font-style: italic;
+  font-size: 18px;
+  color: #341e14;
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+
+.swiper-pagination-log {
+  display: flex !important;
+  justify-content: center;
+  position: relative !important;
+  margin-top: 32px;
+  @media screen and (min-width: 1440px) {
+    display: none !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 0 !important;
+  background-color: #3b603b !important;
+}
