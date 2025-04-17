@@ -16,7 +16,7 @@
 @import './why-us.css';
 
 :root {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -40,17 +40,15 @@
 }
 
 .title-h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 40px;
   color: #341e14;
-
+  text-align: left;
   @media screen and (min-width: 1440px) {
     font-size: 48px;
   }
 }
-
-
 
 .visually-hidden {
   position: absolute;

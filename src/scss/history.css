@@ -2,20 +2,70 @@
   margin-bottom: 80px;
   scroll-margin-top: 100px;
   @media (min-width: 1440px) {
-    margin-bottom: 140px;
+    margin-bottom: 120px;
   }
 }
 
 .history_container {
-  padding: 0 20px;
+  padding: 0 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  gap: 28px;
+  gap: 48px;
   @media (min-width: 1440px) {
-    padding: 0 80px;
-    gap: 36px;
+    padding: 0 72px;
+    gap: 56px;
   }
 }
 
+.history-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  @media (min-width: 1440px) {
+    flex-direction: row;
+  }
+}
+
+.history-left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  @media (min-width: 1440px) {
+    gap: 67px;
+  }
+}
+
+.history-text_title {
+  font-size: 24px;
+  color: #2c3b2e;
+  max-width: 280px;
+  @media (min-width: 1440px) {
+    font-size: 40px;
+    max-width: 473px;
+  }
+}
+
+.history_text {
+  font-style: italic;
+  max-width: 100%;
+  @media (min-width: 1440px) {
+    font-size: 24px;
+    max-width: 746px;
+  }
+}
+
+.history_image {
+  width: 100%;
+  display: flex;
+  order: -1;
+  @media (min-width: 1440px) {
+    width: 526px;
+    order: 1;
+  }
+}
