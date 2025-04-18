@@ -175,3 +175,7 @@
     transform: scale(1.05);
   }
 }
+
+.header-pages-color{
+  color: #341e14 !important;
+}
