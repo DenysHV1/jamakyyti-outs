@@ -2,7 +2,7 @@
   margin-bottom: 80px;
   scroll-margin-top: 100px;
 
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     margin-bottom: 120px;
   }
 }
@@ -14,7 +14,7 @@
   gap: 48px;
   padding: 0 16px;
 
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     gap: 56px;
     padding: 0 72px;
   }
@@ -28,7 +28,7 @@
   background-size: 253px 279px;
   background-position: top left;
   background-repeat: no-repeat;
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     background-size: 526px 580px;
     padding-top: 0;
     max-width: 100%;
@@ -52,7 +52,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     font-size: 80px;
     background: linear-gradient(270deg, #3e5741 0%, #e8f0e9 50%, #e8f0e9 100%);
     background-clip: text;
@@ -75,12 +75,11 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 8px;
-  background: #cbd9cc;
   padding: 16px;
   min-height: 157px;
   backdrop-filter: blur(30px);
   background: rgba(227, 235, 224, 0.7);
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     background: #e3ebe0;
     backdrop-filter: none;
     gap: 16px;
@@ -94,7 +93,7 @@
 }
 
 .swiper-slide-log-1 {
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     position: absolute !important;
     top: 204px;
     right: 550px;
@@ -102,7 +101,7 @@
 }
 
 .swiper-slide-log-2 {
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     position: absolute !important;
     top: 401px;
     right: 110px;
@@ -110,7 +109,7 @@
 }
 
 .swiper-slide-log-3 {
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     position: absolute !important;
     top: 24px;
     right: 0;
